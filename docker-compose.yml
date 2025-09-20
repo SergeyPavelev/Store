@@ -13,11 +13,11 @@ services:
       - redis
 
   db:
-    image: postgres:15
+    image: postgres:17
     environment:
-      POSTGRES_DB: shop
-      POSTGRES_USER: shop
-      POSTGRES_PASSWORD: shop_pass
+      POSTGRES_DB: store
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Sergey24012008
     volumes:
       - pgdata:/var/lib/postgresql/data
 
