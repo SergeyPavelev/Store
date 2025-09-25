@@ -43,10 +43,12 @@ INSTALLED_APPS = [
     # the debug toolbar
     'debug_toolbar',
     
-    'backend.src.store',
-    'backend.src.users',
+    'backend.src.products',
+    'backend.src.accounts',
     'backend.src.orders',
     'backend.src.cart',
+    'backend.src.payment',
+    
 ]
 
 MIDDLEWARE = [
